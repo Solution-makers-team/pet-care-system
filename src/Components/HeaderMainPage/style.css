@@ -1,0 +1,138 @@
+.header-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ebeced;
+    box-shadow: 0 8px 16px rgba(0,0,0,.1);
+    z-index: 1000;
+  }
+  
+  .header-main-container .content-header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    width: 100%;
+    padding: 0 30px;
+    height: 65px;
+    background: #fff;
+    z-index: 99;
+  }
+    
+  .header-main-container .nav-header-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 280px;
+    width: 100%;
+  }
+    
+  .header-main-container .nav-header-main a {
+    text-decoration: none;
+    color: #7bbb5e;
+    transition: 100ms;
+  }
+  
+  .header-main-container .nav-header-main .actions-header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-auto-flow: column;
+  }
+  
+  .header-main-container .nav-header-main .actions-header a, .header-main-container .nav-header-main .actions-header button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    transition: 0.1s;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  .header-main-container .nav-header-main .actions-header a svg, .header-main-container .nav-header-main .actions-header button svg {
+    stroke: #717171;
+  }
+  
+  .header-main-container .nav-header-main .actions-header a:hover > svg, .header-main-container .nav-header-main .actions-header button:hover > svg {
+    stroke: #7bbb5e;
+  }
+  
+  .header-main-container .nav-header-main .entrar-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7bbb5e;
+    width: 85px;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ebeced;
+    transition: 100ms;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+    
+  .header-main-container .nav-header-main .entrar-a:hover {
+    color: #7bbb5e;
+    background: #fff;
+  }
+  
+  .header-main-container .nav-header-main .cadastrar-btn {
+    margin-left: 10px;
+  }
+  
+  .header-main-container .nav-header-main .cadastrar-btn:hover {
+   color: #7fac6b; 
+  }
+  
+  @media only screen and (max-width: 425px) and (min-width: 0px) {
+    .header-main-container .content-header {
+      padding: 0 15px !important;
+    }
+  
+    .header-main-container {
+      padding: 0 10px !important;
+    }
+  
+    .header-main-container .nav-header-main {
+      max-width: 250px;
+    }
+  
+    .header-main-container .nav-header-main .entrar-a {
+      width: 70px !important;
+      height: 40px;
+    }
+  
+    .header-main-container .nav-header-main .cadastrar-btn {
+      font-size: 15px;
+    }
+  
+    .a-logo-petclient .logo-petcare .petcare-logo {
+      max-width: 25px;
+      max-height: 25px;
+      transition: 0.2s;
+    }
+  
+    .header-main-container .nav-header-main .actions-header {
+      gap: 10px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) and (min-width: 0px) {
+    .a-logo-petclient .logo-petcare .petcare-logo {
+      max-width: 25px;
+      max-height: 25px;
+      transition: 0.2s;
+    }
+  
+    .header-main-container .nav-header-main .actions-header {
+      gap: 5px !important;
+    }
+  }
