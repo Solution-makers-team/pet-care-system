@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(252, 247, 247);
+}
+.hrline{
+    margin-top: 4%;
+    background-color: rgb(75, 73, 73);
+    width: 992px;;
+    height: 10px;
+    margin-left: 17%;
+}
+
+.App-logo{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    margin-top:0% ;
+    margin-left:17% ;
+}
+.logpage{
+    position: absolute;
+    background-color: rgb(161, 154, 154);
+    width: 500px;
+    height: 550px;
+    margin-left: 50%;
+    margin-top: 0%;
+}
+.instruct{
+    margin-top: 8%;
+    margin-left: 28%;
+    color: #fffafa;
+    font-style: istok web;
+    font-size: 28px;
+}
+
+
+
+.forgot{
+    color: #fffafa;
+    margin:3px 5px 5px 24px;
+    font-size: 10px;
+}
+.logbutton{
+    background-color: #726f6f;
+    width: 300px;
+    height: 35px;
+    margin:38px 5px 5px 108px;
+}
+.submit{
+    padding: 0.1px 122px;
+    color: #fffafa;
+    font-size: 7.5px;
+    
+}
+.mem{
+    color: #fffafa;
+    margin:3px 5px 5px 171px;
+    font-size: 16px;
+    
+    
+}
+.mem div{
+    color: #5a5858;
+    display: inline-block;
+    margin-top: 0px;
+    
+}
+
+input[type=text ]{
+    background-color: rgb(245, 247, 249);
+    width: 400px;
+    height: 35px;
+    margin:30px 5px 15px 20px;
+    padding:6px 8px 8px 42px;
+    
+}
+
+input[type=password ]{
+    background-color: rgb(245, 247, 249);
+    width: 400px;
+    height: 35px;
+    margin:30px 10px 5px 20px;
+    padding:6px 8px 8px 42px;
+}
